@@ -1,8 +1,8 @@
 # PHP Crash Course 2020
 
-## Final version - *All code written during the video is there*
+## Initial version - You can download the code and follow the video tutorial.
 
-If you are interested to see empty files to following the tutorial switch to `master` branch. 
+If you are interested to see final files switch to `final-version` branch. 
 
 The video covers all the basic things about PHP. 
 
