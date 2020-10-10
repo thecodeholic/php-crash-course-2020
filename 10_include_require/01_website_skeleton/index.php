@@ -1,18 +1,21 @@
-<?php
-
-// 1. Generate html boilerplate code
-// 2. Create <header> and <footer> html elements
-// 3. Create about.php
-// 4. Move header.php and footer.php in partials folder
-// 5. Create variable $companyName which can be accessed in footer.php
-
-// 7.
-$companyName = 'TraversyMedia';
-?>
-<!-- 6. Rename header.php to  show Fatal error-->
-<?php require "partials/header.php"; ?>
-<!-- 7. Create weather.php in partials-->
-<!-- 8. Rename weather.php to show warning-->
-<?php include "partials/weather.php" ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+</header>
+<h3>Georgia, Tbilisi 5&#8451;</h3>
 <h1>Welcome to my cool website</h1>
-<?php require "partials/footer.php"; ?>
+<footer>
+    Copyright &copy; 2020 TheCodeholic
+</footer>
+</body>
+</html>
