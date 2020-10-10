@@ -69,27 +69,11 @@ var_dump([...$fruits, ...$vegetables]); // Since PHP 7.4
 echo '</pre>';
 
 // Sorting of array (Reverse order also)
-sort($fruits); //sort, rsort, usort
+sort($fruits); //sort, rsort
 echo '<pre>';
 var_dump($fruits);
 echo '</pre>';
 
-// Filter, map, reduce of array
-$numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-$evens = array_filter($numbers, function($n){ // fn($n) => $n % 2 === 0
-    return $n % 2 === 0;
-});
-echo '<pre>';
-var_dump($evens);
-echo '</pre>';
-
-$squares = array_map(fn($n) => $n + 1, $numbers);
-echo '<pre>';
-var_dump($squares);
-echo '</pre>';
-
-$sum = array_reduce($numbers, fn($carry, $item) => $carry + $item);
-echo $sum.'<br>';
 
 // https://www.php.net/manual/en/ref.array.php
 
@@ -129,15 +113,4 @@ echo '</pre>';
 ksort($person); // ksort, krsort, asort, arsort
 echo '<pre>';
 var_dump($person);
-echo '</pre>';
-
-
-// Two dimensional arrays
-$todoItems = [
-    ['title' => 'Todo1', 'completed' => true],
-    ['title' => 'Todo 2', 'completed' => false],
-];
-
-echo '<pre>';
-var_dump($todoItems);
 echo '</pre>';
