@@ -92,6 +92,13 @@ echo $person['name'].'<br>';
 // Set element by key
 $person['channel'] = 'TraversyMedia';
 
+//Null coalescing assignment operator. Since PHP 7.4
+if (!isset($person['address'])){
+    $person['address'] = 'Unknown';
+}
+$person['address'] ??= 'Unknown';
+echo $person['address'].'<br>';
+
 // Check if array has specific key
 echo '<pre>';
 var_dump(isset($person['age']));  // Change age into "location"
