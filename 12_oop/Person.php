@@ -24,4 +24,9 @@ class Person {
     {
         $this->salary = $salary;
     }
+
+    public static function getCounter()
+    {
+        return self::$counter;
+    }
 }
