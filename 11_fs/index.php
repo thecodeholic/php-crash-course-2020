@@ -29,11 +29,13 @@ $jsonContent = file_get_contents('https://jsonplaceholder.typicode.com/users');
 $users = json_decode($jsonContent);
 var_dump($users);
 
-// https://www.php.net/manual/en/book.filesystem.php
-// file_exists
-// is_dir
-// filemtime
-// filesize
-// disk_free_space
-// file
+// Check if file exists or not
+file_exists('lorem.txt'); // true
 
+// Get file size
+filesize('lorem.txt');
+
+// Delete file
+unlink('lorem.txt');
+
+// https://www.php.net/manual/en/book.filesystem.php
