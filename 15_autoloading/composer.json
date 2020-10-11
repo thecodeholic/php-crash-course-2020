@@ -1,0 +1,17 @@
+{
+    "name": "thecodeholic/15_autoloading",
+    "authors": [
+        {
+            "name": "Zura Sekhniashvili",
+            "email": "zurasekhniashvili@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
