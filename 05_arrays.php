@@ -16,17 +16,15 @@ $fruits[0] = "Peach";
 
 // Check if array has element at index 2
 echo '<pre>';
-var_dump(isset($fruits[2]));  // Change age into 5
+var_dump(isset($fruits[2]));
 echo '</pre>';
-
-// Append element
-$fruits[] = 'Peach';
-echo $fruits[3].'<br>';
 
 // Print the length of the array
 echo count($fruits).'<br>';
 
 // Add element at the end of the array
+$fruits[] = 'Peach';
+echo $fruits[3].'<br>';
 array_push($fruits, 'Foo');
 // Remove element from the end of the array
 array_pop($fruits);
