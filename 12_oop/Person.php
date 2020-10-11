@@ -5,11 +5,14 @@ class Person {
     public int $age;
     private ?float $salary;
 
+    static int $counter = 0;
+
     public function __construct($name, $age, $salary)
     {
         $this->name = $name;
         $this->age = $age;
         $this->salary = $salary;
+        self::$counter++;
     }
 
     public function getSalary()
