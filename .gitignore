@@ -1,2 +1,5 @@
 .idea
 vendor
+*.jpg
+*.png
+*.webp
