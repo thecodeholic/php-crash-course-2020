@@ -11,11 +11,6 @@ $url = 'https://jsonplaceholder.typicode.com/users';
 //// Get response status code
 //$responseCode = curl_getinfo($resource, CURLINFO_HTTP_CODE);
 //echo $responseCode;
-//exit;
-//// set_opt_array
-//curl_setopt_array($resource, [
-//    CURLOPT_RETURNTRANSFER => true
-//]);
 
 // Create User
 $user = [
