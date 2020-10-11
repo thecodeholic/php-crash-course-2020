@@ -1,25 +1,31 @@
 <?php
 
-// 1. Function which prints "Hello I am TheCodeholic"
+// Function which prints "Hello I am Zura"
 function hello()
 {
-    echo 'Hello I am TheCodeholic<br>';
+    echo 'Hello I am Zura<br>';
 }
 
-hello(); // 2
-hello(); // 3
-hello(); // 4
+hello();
+hello();
+hello();
 
-// 5. Create sum of two functions
+// Function with argument
+//function hello($name)
+//{
+//    echo "Hello I am $name";
+//}
+
+// Create sum of two functions
 function sum($a, $b)
 {
-    echo ($a + $b) . '<br>'; // 5.3. return sum instead of printing
+    return $a + $b;
 }
 
-sum(4,5); // 5.1, 5.4. Add echo
-sum(9,10); // 5.2, 5.6. Add echo
+echo sum(4,5);
+echo sum(9,10);
 
-// 6. Create function to sum all numbers using ...$nums
+// Create function to sum all numbers using ...$nums
 //function sum(...$nums)
 //{
 //    $sum = 0;
@@ -28,10 +34,10 @@ sum(9,10); // 5.2, 5.6. Add echo
 //}
 //echo sum(1, 2, 3, 4, 6);
 //
-//// 7 Arrow functions
+// Arrow functions
 //function sum(...$nums)
 //{
-//    return array_reduce($nums, fn($coll, $n) => $coll + $n);
+//    return array_reduce($nums, fn($carry, $n) => carry + $n);
 //}
 //echo sum(1, 2, 3, 4, 6);
 
