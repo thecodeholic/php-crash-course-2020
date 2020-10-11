@@ -7,6 +7,10 @@
 // How to set cookies
 setcookie('name', 'Zura', time() + 60);
 
+echo '<pre>';
+var_dump($_COOKIE);
+echo '</pre>';
+
 // How to update cookie
 setcookie('name', 'Bob', time() + 2 * 60);
 
