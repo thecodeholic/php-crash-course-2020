@@ -34,8 +34,6 @@
 
 // Sorting of array (Reverse order also)
 
-// Filter, map, reduce of array
-
 
 // https://www.php.net/manual/en/ref.array.php
 
@@ -48,6 +46,8 @@
 // Get element by key
 
 // Set element by key
+
+// Null coalescing assignment operator. Since PHP 7.4
 
 // Check if array has specific key
 
