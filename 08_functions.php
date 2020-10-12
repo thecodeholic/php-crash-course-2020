@@ -1,6 +1,8 @@
 <?php
 
-// Function which prints "Hello I am TheCodeholic"
+// Function which prints "Hello I am Zura"
+
+// Function with argument
 
 // Create sum of two functions
 
