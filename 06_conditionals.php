@@ -3,22 +3,22 @@
 $age = 20;
 $salary = 300000;
 
-// if condition
+// Sample if
 
-// if condition - else
+// Without circle braces
 
-// if condition1 AND condition2
+// Sample if-else
 
-// if condition1 OR condition2
+// Difference between == and ===
 
-// if condition1 - elseif condition2 - else
+// if AND
 
-// if condition1 and condition2 - elseif condition1 and condition2 - else
+// if OR
 
 // Ternary if
 
-// Null coalescing operator
+// Short ternary
 
-// Null coalescing assignment operator. Since PHP 7.4
+// Null coalescing operator
 
 // switch
