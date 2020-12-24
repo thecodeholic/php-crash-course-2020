@@ -1,6 +1,7 @@
 <?php
 
 // What is a variable
+<<<<<<< HEAD
     /*
     PHP is is loosely typed variables that don't have types. They are dynamic and change based upon the value of what you place inside the variable.
     */
@@ -62,3 +63,27 @@
 // Using PHP built-in constants
     echo SORT_ASC . '<br/>'; //used to sort a list in ascending order
     echo PHP_INT_MAX . '<br/>'; //prints largest number PHP can handle
+=======
+
+// Variable types
+
+// Declare variables
+
+// Print the variables. Explain what is concatenation
+
+// Print types of the variables
+
+// Print the whole variable
+
+// Change the value of the variable
+
+// Print type of the variable
+
+// Variable checking functions
+
+// Check if variable is defined
+
+// Constants
+
+// Using PHP built-in constants
+>>>>>>> 437274e8b9d401dff3c35941f3a0c332b32f9ec3
