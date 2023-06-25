@@ -1,0 +1,17 @@
+.tableCell {
+  background-color: #9dd1a2;
+  text-align: right;
+}
+
+.headerCell {
+  background-color: #9dbfd1;
+  text-align: center;  
+}
+
+td, th, .table {
+  border: 1px solid black !important;
+}
+
+th,td {
+   text-align: center;   
+}
